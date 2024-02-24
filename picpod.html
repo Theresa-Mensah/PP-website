@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PicPod</title>
+    <link rel="stylesheet" href="picpodstyle.css">
+  </head>
+  <body>
+    <img src="picpodlogo.png" class="image1">
+    <h1 class="logo-description">PicPod</h1>
+    <div class="wrapper">
+      <div class="box">
+        <div class="input-bx">
+          <h2 class="upload-area-title"> Upload Pictures Here</h2>
+          <form action="">
+            <input type="file" id="upload" accept=".doc,.docx.pdf,.jpg,.png,.jpeg,.gif,.svg,.tif,.tiff,.bmp" hidden>
+            <label for="upload" class="uploadlabel">
+              <span><i class="fa fa-cloud-upload"></i></span>
+              <p>Click to share your favourite images</p>
+
+            </label>
+          </form>
+        </div>
+
+        <div id="filewrapper">
+          <h3 class="uploaded"> Uploaded files </h3>
+          <div class="showfilebox">
+            <div class="left">
+              <span class="filetype">jpg</span>
+              <h3>EventPic.jpg</h3>
+            </div>
+            <div class="right">
+              <span>&#215;</span>
+
+            </div> 
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+  </html>
